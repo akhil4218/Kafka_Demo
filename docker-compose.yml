@@ -1,0 +1,7 @@
+services:
+  kafka:
+    # Official Apache Kafka image. Pin to a real released version for repeatable demos.
+    image: apache/kafka:4.2.2
+    container_name: kafka-demo
+    ports:
+      - "9092:9092"
